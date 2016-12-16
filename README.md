@@ -17,8 +17,10 @@ ember install ember-graphql-shim
 ```js
 import { GraphQLSchema } from 'graphql';
 
+import query from './myRootQuery';
+import mutation from './myRootMutation';
 
-export default new GraphQLSchema({ query, mutation });
+export const rootSchema = new GraphQLSchema({ query, mutation });
 ```
 
 
