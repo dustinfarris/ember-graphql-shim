@@ -1,5 +1,7 @@
 # ember-graphql-shim
 
+[![CircleCI](https://circleci.com/gh/dustinfarris/ember-graphql-shim.svg?style=svg)](https://circleci.com/gh/dustinfarris/ember-graphql-shim)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
