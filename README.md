@@ -2,27 +2,35 @@
 
 [![CircleCI](https://circleci.com/gh/dustinfarris/ember-graphql-shim.svg?style=svg)](https://circleci.com/gh/dustinfarris/ember-graphql-shim)
 
-This README outlines the details of collaborating on this Ember addon.
+Use [graphql](https://github.com/graphql/graphql-js) in your Ember project.
+
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-graphql-shim`
-* `npm install`
-* `bower install`
+```
+ember install ember-graphql-shim
+```
 
-## Running
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+## Usage
 
-## Running Tests
+```js
+import { GraphQLSchema } from 'graphql';
+
+
+export default new GraphQLSchema({ query, mutation });
+```
+
+
+## Developing
+
+### Running Tests
 
 * `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
+### Building
 
 * `ember build`
 
