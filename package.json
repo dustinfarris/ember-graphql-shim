@@ -43,7 +43,7 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.6.3",
     "ember-resolver": "^2.0.3",
-    "graphql": "^0.8.2",
+    "graphql": "^0.10.5",
     "loader.js": "^4.0.10"
   },
   "peerDependencies": {
